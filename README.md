@@ -84,18 +84,14 @@ npm test
 
 ### Authentication
 
-- `POST /users/register` - Register a new user
-- `POST /users/login` - Authenticate a user and return a JWT
-
-### Users
-
-- `GET /users` - Get all users (Requires authentication)
-- `GET /users/:id` - Get user details
+- `POST /auth/register` - Register a new user
+- `POST /auth/login` - Authenticate a user and return a JWT in cookies
 
 ### Cars
 
-- `GET /cars` - Get all cars
-- `GET /cars/:id` - Get a specific car
+- `GET /api/cars` - Get all cars
+- `GET /api/cars/:id` - Get a specific car
+and more
 
 ## Docker Support
 
