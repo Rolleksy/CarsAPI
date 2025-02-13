@@ -45,7 +45,7 @@ This is a TypeScript-based API built with Express.js, designed for managing cars
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/.git
+   git clone https://github.com/Rolleksy/CarsAPI.git
    cd your-repo
    ```
 2. Install dependencies:
