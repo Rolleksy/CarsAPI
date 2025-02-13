@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: car_dataset_api
+    ports:
+      - '${PORT}:${PORT}' # Pobiera port z .env
+    volumes:
+      - .:/usr/src/app
+      - ./database:/usr/src/app/data
+    environment:
+      - NODE_ENV=production
+      - PORT=${PORT} # Przekazuje zmienną do kontenera
+    env_file:
+      - .env # Wczytuje zmienne z .env
+    command: npm start

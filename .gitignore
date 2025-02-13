@@ -1,0 +1,7 @@
+/node_modules
+/dist
+/debug
+/data/*.db
+/coverage
+.env
+notes.md
